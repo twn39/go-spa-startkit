@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    {{range .EntryPoints.App.Css}}
+    <link rel="stylesheet" type="text/css" href="{{.}}" />
+    {{end}}
+
+</head>
+<body>
+<div id="root"></div>
+
+
+{{range .EntryPoints.App.Js}}
+<script src="{{.}}"></script>
+{{end}}
+</body>
+</html>
