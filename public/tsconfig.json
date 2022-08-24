@@ -17,10 +17,7 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "typeRoots": [
-      "./web/frontend/@types",
-      "./web/dashboard/@types"
-    ],
+    "typeRoots": [],
     "lib": [
       "dom",
       "dom.iterable",
